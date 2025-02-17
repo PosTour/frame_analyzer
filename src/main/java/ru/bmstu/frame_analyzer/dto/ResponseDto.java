@@ -1,8 +1,10 @@
 package ru.bmstu.frame_analyzer.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 
 @AllArgsConstructor
+@Getter
 public class ResponseDto {
 
     private double value1;
